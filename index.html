@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* poppins-regular - latin */
+        @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('font/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('font/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('font/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('font/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('font/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+        }
+        /* poppins-500 - latin */
+        @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url('font/poppins-v15-latin-500.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('font/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font/poppins-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+            url('font/poppins-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+            url('font/poppins-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('font/poppins-v15-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+        }
+        /* poppins-600 - latin */
+        @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url('font/poppins-v15-latin-600.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('font/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font/poppins-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+            url('font/poppins-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+            url('font/poppins-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('font/poppins-v15-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+        }
+        /* poppins-700 - latin */
+        @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('font/poppins-v15-latin-700.eot'); /* IE9 Compat Modes */
+        src: local(''),
+            url('font/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+            url('font/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+            url('font/poppins-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('font/poppins-v15-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__flex">
+            <div class="header__bar">
+                <a href="" class="header__logo">
+                    <img src="img/logo.svg" width="60.36" height="50" alt="logo">
+                    <h1>Zendit</h1>
+                </a>
+                <nav class="header__navigation">
+                    <ul class="header__items">
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Tracking</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__enter">
+                <button class="header__sign-btn">Sign In</button>
+                <button class="header__reg-btn">Register</button>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main__flex">
+            <div class="main__text">
+                <h2 class="main__title">Sends goods more
+                    easily and quickly
+                </h2>
+                <p>Send your package with zendit, fast and easy 
+                    delivery, express your online business.
+                </p>
+            </div>
+            <div class="main__bg">
+                <img src="img/bg-main.png" class="main__bg-foto" width="531" height="797" alt="our-background">
+                <div class="main__bg-block"></div>
+            </div>
+        </div>
+    </section>
+    <section class="track">
+        <div class="track__wrap">
+            <div class="track__title">
+                <h3>Track your packet here</h3>
+                <span>data provided by zendit</span>
+            </div>
+            <form class="track__form"> 
+                <input placeholder="enter the tracking number / receipt">
+                <button type="button" class="track__form-btn">Track parcel</button> 
+            </form>
+        </div>
+    </section>
+    <section class="offer">
+        <p class="block-text offer__text">Special Offer</p>
+        <h4 class="offer__title title">We offer an outstanding service
+            on-time everytime
+        </h4>
+        <div class="offer__grid">
+            <div class="offer__item">
+                <p class="offer__item-title">Local Heroes</p>
+                <div class="offer__block-img"></div>
+                <p class="offer__feature">minimum distance <span>10 miles</span></p>
+                <p class="offer__feature">maximum weight <span>5 pounds</span></p>
+            </div>
+            <div class="offer__item">
+                <p class="offer__item-title">Airplanings</p>
+                <div class="offer__block-img"></div>
+                <p class="offer__feature">minimum distance <span>25 miles</span></p>
+                <p class="offer__feature">maximum weight <span>12 pounds</span></p>
+            </div>
+            <div class="offer__item">
+                <p class="offer__item-title">Speedrunner</p>
+                <div class="offer__block-img"></div>
+                <p class="offer__feature">minimum distance <span>150 miles</span></p>
+                <p class="offer__feature">maximum weight <span>35 pounds</span></p>
+            </div>
+            <div class="offer__item">
+                <p class="offer__item-title">Local Racers</p>
+                <div class="offer__block-img"></div>
+                <p class="offer__feature">minimum distance <span>215 miles</span></p>
+                <p class="offer__feature">maximum weight <span>60 pounds</span></p>
+            </div>
+        </div>
+    </section>
+    <section class="discount">
+        <div class="discount__flex">
+            <div class="discount__text">
+                <h4 class="title">Get discounts up to 40% <br>
+                    just by registeringyour account
+                </h4>
+                <p>Zendit Express Division serves time-sensitive packages and 
+                    documents to domestic destinations through more than 1,500 
+                    exclusive service points from pick-up to delivery spread across 
+                    the country.
+                </p>
+                <button>Create an account now</button>
+            </div>
+            <div class="discount__img">
+                <img src="img/discount__img.png">
+            </div>
+        </div>
+    </section>
+    <section class="companies">
+        <p class="block-text companies__text">Partnership</p>
+        <h4 class="companies__title title">trusted by more than 150+
+            big companies
+        </h4>
+        <div class="companies__flex">
+            <img src="img/companies__flex1.png" width="238" height="83" alt="img">
+            <img src="img/companies__flex2.png" width="234" height="84" alt="img">
+            <img src="img/companies__flex3.png" width="261" height="89" alt="img">
+            <img src="img/companies__flex4.png" width="300" height="48" alt="img">
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__flex">
+            <div class="footer__information">
+                <ul>
+                    <li><h5>Information</h5></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__product">
+                <ul>
+                    <li><h5>Product & Service</h5></li>
+                    <li><a href="">Shipment</a></li>
+                    <li><a href="">Cargo</a></li>
+                    <li><a href="">Zendit</a></li>
+                    <li><a href="">COD</a></li>
+                    <li><a href="">Best</a></li>
+                    <li><a href="">Gokils</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <ul>
+                    <li><h5>Info Contact</h5></li>
+                    <li>Jl. Ir. H. Juanda 3 No. 17-19, 
+                        RT.008/RW.002, Kel. Kebon 
+                        Kelapa Kec. Gambir, Jakarta 
+                        Pusat 10120
+                    </li>
+                    <li><a href="mailto:customer.care@zendit.com">customer.care@zendit.com</a></li>
+                </ul>
+            </div>
+            <div class="footer__app">
+                <ul>
+                    <li><h5>Download App</h5></li>
+                    <li><a href=""><img src="img/footer__app_g.png"></a></li>
+                    <li><a href=""><img src="img/footer__app_a.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
